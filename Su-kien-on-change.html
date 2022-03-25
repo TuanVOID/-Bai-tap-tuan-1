@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<select id="myselect" onchange="hanhdong()">
+    <option value="Em A">Chon em A</option>
+    <option value="Em B">Chon em B</option>
+    <option value="Em C">Chon em C</option>
+    <option value="Em D">Chon em D</option>
+</select>
+<script>
+    function hanhdong() {
+        var giatrichon = document.getElementById("myselect").value;
+        alert(giatrichon);
+    }
+</script>
 </body>
 </html>
